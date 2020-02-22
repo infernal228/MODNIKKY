@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://static.zara.net/photos//mkt/spots/aw19-north-puffer-trf/subhome//desktop-aw19-north-puffer-trf-img-01.st.jpg?ts=1575020619828);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.menu-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+}
+
+.menu-ul a {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #000;
+}
+
+.aaa {
+  line-height: 1;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.aaa:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.aaa:hover:after,
+.aaa:focus:after {
+  width: 100%;
+}
+
+.fas {
+  transition: all 0.5s;
+}
+
+.fas:hover {
+  transform: scale(1.234);
+}
+
+.logo {
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+.header-containt {
+  color: #fff;
+  margin-top: 350px;
+  margin-left: 150px;
+}
+
+.header-heading {
+  font-size: 40px;
+}
+
+.header-text {
+  font-size: 18px;
+}
+
+.header-btn {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  padding: 30px;
+  text-decoration: none;
+  background: none;
+  outline: none;
+  transition: all 0.4s ease, transform 0.2s ease;
+}
+
+.header-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.header-btn:active {
+  transform: scale(0.9);
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.first-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(http://orest.com.ua/thumbnails/ec/ec0c76abcacd87bd26cf3e7a7e5960e2.jpg);
+  background-size: cover;
+}
+
+.main-containt {
+  color: #fff;
+  padding-top: 10%;
+  margin-left: 8%;
+}
+
+.main-heading {
+  font-size: 40px;
+}
+
+.main-text {
+  font-size: 18px;
+}
+
+.main-btn {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  padding: 30px;
+  text-decoration: none;
+  background: none;
+  outline: none;
+  transition: all 0.4s ease, transform 0.2s ease;
+}
+
+.main-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.main-btn:active {
+  transform: scale(0.9);
+}
+
+.sec-images {
+  display: flex;
+  flex-flow: row;
+}
+
+.column-image {
+  width: 33.33%;
+  position: relative;
+}
